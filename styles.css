@@ -1,65 +1,83 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
 }
 
 h1,
 h2,
 h3{
-    font-weight: bold;
-    font-family: "Lucida Console", "Courier New", monospace;
-    text-align: center;
-    border-radius: 5px;
-    
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  border-radius: 5px;
+  
 }
-
 h1{
-    text-align: center;
-    font-size: 32px;
-    background-color: rgb(211, 203, 96);
-    box-shadow: 10px 5px 5px rgb(111, 111, 111);
+  text-align: center;
+  font-size: 32px;
+  background-color: rgb(177, 166, 105);
+  box-shadow: 10px 5px 5px rgb(111, 111, 111);
 
-    display: inline-block;
-    padding: 10px 30px; 
-    /* margin: 10px; */
+  display: inline-block;
+  padding: 10px 30px; 
+  /* margin: 10px; */
 }
-
 h2, 
 h3{
-    background-color: rgb(151, 140, 126);
-    color: whitesmoke;
-    padding: 8px 8px;
+  background-color: rgb(151, 140, 126);
+  
+  padding: 8px 8px;
 }
 
 p, ul, ol{
-    padding: 8px 8px;
-    margin: 32px 32px;
+  padding: 8px 8px;
+  margin: 32px 32px;
+}
+
+li{
+  padding: 4px 4px;
+  margin: 0px 16px;
 }
 
 .center{
-    box-shadow: 10px 5px 5px rgb(111, 111, 111);
-    /* border: 2px solid gray; */
-    /* display: inline-block; */
-    text-align: center;
-    width: 256px;
-    margin: 20px 20px;
-    height: 320px;
-    border-radius: 25px;
+  box-shadow: 10px 5px 5px rgb(111, 111, 111);
+  /* border: 2px solid gray; */
+  /* display: inline-block; */
+  text-align: center;
+  width: 256px;
+  margin: 20px 20px;
+  height: 320px;
+  border-radius: 25px;
 }
 
 .fig{
-    display: inline-block;
+  display: inline-block;
 }
 
 a{
-    font-weight: bold;
-    font-size: x-large;
-    font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  font-size: x-large;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .title{
-    text-align: center;
+  text-align: center;
 }
 
+.img{
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+}
+
+.images{
+  box-shadow: 10px 5px 5px rgb(111, 111, 111);
+  /* border: 2px solid gray; */
+  /* display: inline-block; */
+  width: auto;
+  margin: 20px 20px;
+  height: 320px;
+  border-radius: 25px;
+}
 
 
