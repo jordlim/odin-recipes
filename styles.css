@@ -99,3 +99,8 @@ a {
   height: 320px;
   border-radius: 25px;
 }
+
+.recipes{
+    text-align: center;
+    display: block;
+}
