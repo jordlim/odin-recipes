@@ -14,7 +14,7 @@ h2,
 h3 {
   font-weight: bold;
   font-family: "Lucida Console", "Courier New", monospace;
-  text-align: center;
+  text-align: left;
   border-radius: 5px;
 }
 
@@ -44,6 +44,7 @@ h4 {
   border: 0;
   color: black;
   text-align: right;
+  box-shadow: 10px 5px 5px #463336;
 }
 
 p,
@@ -103,4 +104,8 @@ a {
 .recipes{
     text-align: center;
     display: block;
+}
+
+.header{
+    box-shadow: 10px 5px 5px #9c4b55;
 }
